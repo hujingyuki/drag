@@ -1,0 +1,64 @@
+.box{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-bottom:20px;
+}
+#box1{
+  background: #ccc;
+}
+#box2{
+  background: #CFE0F8;
+}
+#box3{
+  width: 100px;
+  height: 100px;
+  background: #333;
+  color: yellow;
+  border-radius:100%;
+  line-height:100px;
+  text-align: center;
+}
+
+.demo{
+  overflow:hidden;
+  width:500px;
+  border:1px solid #FF0;
+  background:#eee; 
+  margin-bottom:20px;
+}
+
+#test,
+#test3 {
+  height:30px;
+  width:130px;
+  background:pink;
+  float:left;
+}
+
+#test3 {
+  display: inline-block;
+  float: none;
+}
+
+#target {
+  float:right;
+  height: 200px;
+  width:200px;
+  background:lightblue;
+}
+
+#target2 {
+  margin:20px auto;
+  height: 100px;
+  width:200px;
+  background:lightblue;
+}
+
+.tar {
+  margin-top:20px;
+  height: 100px;
+  width:150px;
+  background:lightblue;
+  display:inline-block;
+}
