@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/h5.css" />
+  <title>h5-drag</title>
+</head>
+<body>
+  <!-- demo1 -->
+  <div class="demo">
+    <div id="test"  draggable="true">拖放源</div>  
+    <div id="target" >拖放目标</div>
+  </div>
+
+  <!-- demo2 -->
+  <div class="demo">
+    <div>请将从这行文字中挑选一些移动到拖放目标中</div>    
+    <div id="target2">拖放目标</div>
+    <div id="result"></div>
+  </div>
+
+  <!-- demo3 -->
+  <!-- 改变光标 -->
+  <div class="demo">
+    <div id="test3" draggable="true">拖放源</div>
+    <br>
+    <div id="target01" class="tar">(none)拖放目标</div>
+    <div id="target02" class="tar">(move)拖放目标</div>
+    <div id="target03" class="tar">(copy)拖放目标</div>
+    <div id="target04" class="tar">(link)拖放目标</div>
+   </div>
+
+  <!-- demo4 -->
+  <!-- 拖拽数据交换 -->
+  <div id="box1" class="box"></div>
+  <div id="box2" class="box"></div>
+  <div id="box3" class="box" draggable="true">来拖我呀</div>
+</body>
+<script src="js/drag1.js"></script>
+<script src="js/drag2.js"></script>
+<script src="js/drag3.js"></script>
+<script src="js/drag4.js"></script>
+</html>
